@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider - Syntecxhub Internship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <!-- Top Header Info -->
+        <header class="task-header">
+            <div class="brand-info">
+                <div class="logo">S</div>
+                <div>
+                    <h2>Syntecxhub Internship</h2>
+                    <p class="subtitle">Task 2: Interactive Image Carousel</p>
+                </div>
+            </div>
+            <span class="badge">Task 2 Complete</span>
+        </header>
+
+        <!-- Main Slider Box -->
+        <main class="slider-wrapper">
+            <div class="slider-container">
+                <div class="slide fade active">
+                    <img src="https://picsum.photos/id/1018/800/450" alt="Mountain Landscape">
+                    <div class="caption">Majestic Mountains</div>
+                </div>
+                <div class="slide fade">
+                    <img src="https://picsum.photos/id/1015/800/450" alt="River Valley">
+                    <div class="caption">Serene River Valley</div>
+                </div>
+                <div class="slide fade">
+                    <img src="https://picsum.photos/id/1019/800/450" alt="Ocean Sunset">
+                    <div class="caption">Calm Ocean Waves</div>
+                </div>
+                <div class="slide fade">
+                    <img src="https://picsum.photos/id/1039/800/450" alt="Forest Path">
+                    <div class="caption">Mystical Forest Path</div>
+                </div>
+
+                <!-- Controls -->
+                <button class="nav-btn prev" id="prevBtn">&#10094;</button>
+                <button class="nav-btn next" id="nextBtn">&#10095;</button>
+            </div>
+
+            <!-- Indicators -->
+            <div class="dots-container" id="dotsContainer">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+            </div>
+
+            <!-- Key Objectives Card -->
+            <div class="objectives-card">
+                <h4>KEY OBJECTIVES INCLUDED</h4>
+                <ul>
+                    <li><span>✔</span> Automatic image slideshow with smooth fade transitions</li>
+                    <li><span>✔</span> Previous / Next navigation controls</li>
+                    <li><span>✔</span> Interactive navigation dots</li>
+                    <li><span>✔</span> 100% Mobile & Desktop responsiveness</li>
+                </ul>
+            </div>
+        </main>
+
+        <!-- Company Footer & Contact Info -->
+        <footer class="company-footer">
+            <p>© 2026 Syntecxhub Front-End Internship Showcase</p>
+            <div class="contact-links">
+                <a href="https://linkedin.com/company/syntecxhub" target="_blank">LinkedIn: @Syntecxhub</a> | 
+                <a href="https://github.com/esraamohamedhussein369-ctrl/syntecxhub-image-slider" target="_blank">Repository: syntecxhub-image-slider</a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
